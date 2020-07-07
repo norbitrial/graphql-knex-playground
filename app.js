@@ -3,6 +3,7 @@ var config = {
   connection: {
     filename: "./book.sqlite",
   },
+  useNullAsDefault: true,
 };
 
 var knex = require("knex")(config);
